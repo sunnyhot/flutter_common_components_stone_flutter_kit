@@ -1,0 +1,29 @@
+name: stone_flutter_kit
+description: 适用于任何 flutter 项目的基础组件库，提供了很多超级好用的 Widgets、Tools、Extensions，具体使用方式及效果请查看 example 工程。
+version: 0.0.1
+author: 王志明 <wangzhiming26@jd.com>
+git: http://git.jd.com/wangzhiming26/stone_flutter_kit.git
+erp: wangzhiming26
+department: 零售研发组
+homepage: http://pub.jd.com
+publish_to: http://pub.jd.com
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get_it: ^3.0.3
+  intl: ^0.16.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.example.stone_flutter_kit
+    pluginClass: StoneFlutterKitPlugin

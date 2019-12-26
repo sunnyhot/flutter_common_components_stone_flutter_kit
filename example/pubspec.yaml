@@ -1,0 +1,26 @@
+name: stone_flutter_kit_example
+description: Demonstrates how to use the stone_flutter_kit plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  scroll_to_index: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  stone_flutter_kit:
+    path: ../
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - res/shops.json
